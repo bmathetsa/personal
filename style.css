@@ -178,6 +178,11 @@ p {
 	background-color: white;
 	z-index: -1;
 }
+
+#contact .contact-item:hover{
+	color: rgb(255, 0, 51);
+}
+
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
 	content: '';
@@ -202,10 +207,18 @@ p {
 	top: 0;
 }
 
+/* .photo{
+	padding-bottom: 5rem;
+} */
+
+.service-bottom{
+	transition: all 3s 1s;
+}
 .service-item:hover {
 	box-shadow: 0 8px 16px 0 rgba(135, 32, 32, 2);
 	/* -webkit-transition: border-radius 2s; */
-	transform: scale(0.7);
+	/* transition: scale(0.7); */
+	transition-duration: 3s;
   }
 
   /* box-shadow: 0 0 0 14px  #4e5052; */
@@ -423,6 +436,19 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
+}
+.photo{
+	/* transform: translateX(-3.5rem);
+	transform: translateY(5rem); */
+	/* margin-right: 100rem; */
+	/* position: absolute;
+	right:30px;
+	object-fit: contain; */
+	object-position: 50% 15px;
+	box-shadow: red,50rem;
+	
+	
+	
 }
 #about .col-left {
 	width: 250px;
