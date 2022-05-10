@@ -9,6 +9,11 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
+
+.dark-mode {
+	background-color: black;
+	color: white;
+}
 a {
 	text-decoration: none;
 }
@@ -196,11 +201,23 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
+
+.service-item:hover {
+	box-shadow: 0 8px 16px 0 rgba(135, 32, 32, 2);
+	/* -webkit-transition: border-radius 2s; */
+	transform: scale(0.7);
+  }
+
+  /* box-shadow: 0 0 0 14px  #4e5052; */
+  
+
+  
+
 /* End Header section */
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/wp8979240.webp);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -700,4 +717,5 @@ p {
 		margin: 1.5%;
 	}
 }
+
 /* End  Media Query For Desktop */
