@@ -207,11 +207,6 @@ p {
 	top: 0;
 }
 
-/* input{
-	width: 50px;
-} */
-
-
 
 .service-bottom{
 	transition: all 3s 1s;
@@ -254,6 +249,7 @@ p {
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
+	height: 70rem;
 }
 #hero h1 {
 	display: block;
@@ -502,18 +498,19 @@ p {
 #contact .contact-items {
 	/* max-width: 400px; */
 	width: 100%;
+	
+	
+
+
 }
 #contact .contact-item {
-	width: 80%;
-	padding: 20px;
 	text-align: center;
 	border-radius: 10px;
+	width: 100%;
 	padding: 30px;
-	margin: 30px;
-	display: flex;
+	
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
 	box-shadow: 0px 0px 18px 0 #0000002c;
 	transition: 0.3s ease box-shadow;
 }
@@ -525,6 +522,10 @@ p {
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
+.contact-info{
+	width: 100%;
+	
+}
 #contact .contact-info h1 {
 	font-size: 2.5rem;
 	font-weight: 500;
@@ -533,6 +534,7 @@ p {
 #contact .contact-info h2 {
 	font-size: 1.3rem;
 	line-height: 2rem;
+	
 	font-weight: 500;
 }
 /*End contact Section */
@@ -575,6 +577,14 @@ p {
 	color: white;
 	font-size: 1.3rem;
 }
+
+.container-items{
+ 
+   display: flex;
+   justify-content: space-between;
+  
+}
+
 /* End Footer */
 
 /* Keyframes */
@@ -687,22 +697,20 @@ p {
 		align-items: center;
 		justify-content: center;
 		min-width: 20vh;
+
 	}
 	#contact .contact-items {
 		width: 100%;
-		display: flex;
+		display: block;
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
 	}
 	#contact .contact-item {
-		width: 30%;
+		width: 100%;
 		margin: 0;
 		flex-direction: row;
 		margin-bottom: 10px;
-	}
-	#User {
-flex-direction: row;
 	}
 	#contact .contact-item .icon {
 		height: 100px;
@@ -716,6 +724,9 @@ flex-direction: row;
 		text-align: left;
 		padding-left: 20px;
 	}
+.user{
+	margin-left: 20%;
+}
 	/* End contact  */
 }
 /* End Media Query For Tablet */
