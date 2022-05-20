@@ -23,3 +23,14 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+
+simpleAlert() 
+    Swal.fire({
+     
+      icon: 'success',
+      title: 'Successfully booked',
+      showConfirmButton: false,
+      timer: 1000,
+      width: '300px'
+    })
