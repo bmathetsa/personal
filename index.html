@@ -5,12 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script>
-    function myFunction() {
-      var element = document.body;
-      element.classList.toggle("dark-mode");
-    }
-  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
@@ -136,11 +130,6 @@
       </div>
     </div>
   </section>
-
-
-
-
-
   <!-- End Service Section -->
 
   <!-- Projects Section -->
@@ -246,15 +235,12 @@
 
 
       </div>
-
       <div class="mod container">
         <!-- Trigger the modal with a button -->
         <button type="button" class="send btn-info btn-lg" data-toggle="modal" data-target="#myModal">Send me a message</button>
-
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
           <div class="modal-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
@@ -267,19 +253,15 @@
                 <input type="email" placeholder="email" name="user_email" class="box">
                 <textarea name="" id="" cols="30" rows="10" class="box message" name="message"
                   placeholder="message"></textarea>
-                <!-- <input type="submit" value="Send"> -->
               </form>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 <button type="submit" value="send" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
               </div>
             </div>
-
           </div>
         </div>
-
       </div>
-
     </div>
   </section>
   <!-- End Contact Section -->
@@ -292,8 +274,8 @@
       </div>
       <div class="social-icon">
         <div class="social-item">
-          <a href="https://www.facebook.com/badidzijayjay.mathetsa"><img
-              src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmOTEyMTIiPjxwYXRoIGQ9Ik04NiwxNC4zMzMzM2MtMzkuNDk1NTIsMCAtNzEuNjY2NjcsMzIuMTcxMTUgLTcxLjY2NjY3LDcxLjY2NjY3YzAsMzkuNDk1NTIgMzIuMTcxMTUsNzEuNjY2NjcgNzEuNjY2NjcsNzEuNjY2NjdjMzkuNDk1NTIsMCA3MS42NjY2NywtMzIuMTcxMTUgNzEuNjY2NjcsLTcxLjY2NjY3YzAsLTM5LjQ5NTUyIC0zMi4xNzExNSwtNzEuNjY2NjcgLTcxLjY2NjY3LC03MS42NjY2N3pNODYsMjguNjY2NjdjMzEuNzQ5MjEsMCA1Ny4zMzMzMywyNS41ODQxMiA1Ny4zMzMzMyw1Ny4zMzMzM2MwLDI4Ljc3MDM1IC0yMS4wMzE4Niw1Mi40MDk5NiAtNDguNTk4OTYsNTYuNjA1NDd2LTM5LjUxNDY1aDE2LjY4NDlsMi42MTc1MSwtMTYuOTUwODVoLTE5LjMwMjQxdi05LjI2NjI4YzAsLTcuMDQ0ODMgMi4yOTUwMSwtMTMuMjk3NTIgOC44ODgzNCwtMTMuMjk3NTJoMTAuNTgyMDN2LTE0Ljc5NTI1Yy0xLjg2MzMzLC0wLjI1MDgzIC01Ljc5NTcsLTAuNzk3ODUgLTEzLjIyNzU0LC0wLjc5Nzg1Yy0xNS41MjMsMCAtMjQuNjIxNDIsOC4xOTg2NyAtMjQuNjIxNDIsMjYuODc1djExLjI4MTloLTE1Ljk1NzAzdjE2Ljk1MDg1aDE1Ljk1NzAzdjM5LjM3NDY3Yy0yNy4xMTg3MSwtNC41NzI3NyAtNDcuNjg5MTMsLTI4LjAxMjEzIC00Ny42ODkxMywtNTYuNDY1NDljMCwtMzEuNzQ5MjEgMjUuNTg0MTIsLTU3LjMzMzMzIDU3LjMzMzMzLC01Ny4zMzMzM3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" /></a>
+          <a href="https://www.linkedin.com/in/badidzi-mathetsa-181373178/"><img
+              src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZjE2MDAiPjxwYXRoIGQ9Ik04Niw2Ljg4Yy00My42NTYwMywwIC03OS4xMiwzNS40NjM5NyAtNzkuMTIsNzkuMTJjMCw0My42NTYwMyAzNS40NjM5Nyw3OS4xMiA3OS4xMiw3OS4xMmM0My42NTYwMywwIDc5LjEyLC0zNS40NjM5NyA3OS4xMiwtNzkuMTJjMCwtNDMuNjU2MDMgLTM1LjQ2Mzk3LC03OS4xMiAtNzkuMTIsLTc5LjEyek04NiwxMy43NmMzOS45Mzc3OSwwIDcyLjI0LDMyLjMwMjIxIDcyLjI0LDcyLjI0YzAsMzkuOTM3NzkgLTMyLjMwMjIxLDcyLjI0IC03Mi4yNCw3Mi4yNGMtMzkuOTM3NzksMCAtNzIuMjQsLTMyLjMwMjIxIC03Mi4yNCwtNzIuMjRjMCwtMzkuOTM3NzkgMzIuMzAyMjEsLTcyLjI0IDcyLjI0LC03Mi4yNHpNNTUuMDQsNDEuMjhjLTUuNjU4ODMsMCAtMTAuMzIsNC42NjExNyAtMTAuMzIsMTAuMzJjMCw1LjY1ODgzIDQuNjYxMTcsMTAuMzIgMTAuMzIsMTAuMzJjNS42NTg4MywwIDEwLjMyLC00LjY2MTE3IDEwLjMyLC0xMC4zMmMwLC01LjY1ODgzIC00LjY2MTE3LC0xMC4zMiAtMTAuMzIsLTEwLjMyek01NS4wNCw0OC4xNmMxLjk0MDYsMCAzLjQ0LDEuNDk5NCAzLjQ0LDMuNDRjMCwxLjk0MDYgLTEuNDk5NCwzLjQ0IC0zLjQ0LDMuNDRjLTEuOTQwNiwwIC0zLjQ0LC0xLjQ5OTQgLTMuNDQsLTMuNDRjMCwtMS45NDA2IDEuNDk5NCwtMy40NCAzLjQ0LC0zLjQ0ek00OC4xNiw2NS4zNmMtMS44OTk3OCwwLjAwMDE5IC0zLjQzOTgxLDEuNTQwMjIgLTMuNDQsMy40NHY1MS42YzAuMDAwMTksMS44OTk3OCAxLjU0MDIyLDMuNDM5ODEgMy40NCwzLjQ0aDEzLjc2YzEuODk5NzgsLTAuMDAwMTkgMy40Mzk4MSwtMS41NDAyMiAzLjQ0LC0zLjQ0di01MS42Yy0wLjAwMDE5LC0xLjg5OTc4IC0xLjU0MDIyLC0zLjQzOTgxIC0zLjQ0LC0zLjQ0ek03NS42OCw2NS4zNmMtMS44OTk3OCwwLjAwMDE5IC0zLjQzOTgxLDEuNTQwMjIgLTMuNDQsMy40NHY1MS42YzAuMDAwMTksMS44OTk3OCAxLjU0MDIyLDMuNDM5ODEgMy40NCwzLjQ0aDEzLjc2YzEuODk5NzgsLTAuMDAwMTkgMy40Mzk4MSwtMS41NDAyMiAzLjQ0LC0zLjQ0di0yNS44YzAsLTQuNzQ1NjMgMy44NTQzNywtOC42IDguNiwtOC42YzQuNzQ1NjMsMCA4LjYsMy44NTQzNyA4LjYsOC42djguNnYxNy4yYzAuMDAwMTksMS44OTk3OCAxLjU0MDIyLDMuNDM5ODEgMy40NCwzLjQ0aDEzLjc2YzEuODk5NzgsLTAuMDAwMTkgMy40Mzk4MSwtMS41NDAyMiAzLjQ0LC0zLjQ0di0yOS4yNGMwLC0xNC4yMDg1NCAtMTEuNTkxNDYsLTI1LjggLTI1LjgsLTI1LjhjLTQuNDI1NDYsMCAtOC4zOTQ0OCwxLjQzMTU2IC0xMi4wNCwzLjQwNjRjLTAuMDE4NjEsLTEuODg2NjUgLTEuNTUzMjYsLTMuNDA2MzEgLTMuNDQsLTMuNDA2NHpNNTEuNiw3Mi4yNGg2Ljg4djQ0LjcyaC02Ljg4ek03OS4xMiw3Mi4yNGg2Ljg4djIuODA4NDRjMC4wMDAxNywxLjM3OTIxIDAuODI0LDIuNjI1MDIgMi4wOTMwNiwzLjE2NTE0YzEuMjY5MDYsMC41NDAxMiAyLjczODAyLDAuMjcwMTQgMy43MzIwOSwtMC42ODU5MmMzLjQwODQ0LC0zLjI3NDIxIDcuOTkyMjMsLTUuMjg3NjUgMTMuMDk0ODUsLTUuMjg3NjVjMTAuNDkwNjYsMCAxOC45Miw4LjQyOTM0IDE4LjkyLDE4LjkydjI1LjhoLTYuODh2LTEzLjc2di04LjZjMCwtOC40OTgzNyAtNi45ODE2MywtMTUuNDggLTE1LjQ4LC0xNS40OGMtOC40OTgzNywwIC0xNS40OCw2Ljk4MTYzIC0xNS40OCwxNS40OHYyMi4zNmgtNi44OHoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" /></a>
         </div>
         <div class="social-item">
           <a href="https://github.com/bmathetsa"><img
